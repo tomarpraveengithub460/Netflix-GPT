@@ -1,8 +1,8 @@
+import { createBrowserRouter, Form } from "react-router-dom";
+import Body from "./components/Body";
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Body />
   );
 }
 
