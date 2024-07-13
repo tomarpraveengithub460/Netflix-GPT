@@ -1,6 +1,6 @@
 const Browse=()=>{
     return <div>
-        <h1>Browse</h1>
+        <h1>Hello</h1>
     </div>
 }
 export default Browse

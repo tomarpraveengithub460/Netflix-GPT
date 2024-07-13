@@ -1,8 +1,11 @@
-import { createBrowserRouter, Form } from "react-router-dom";
+import { Provider } from "react-redux";
 import Body from "./components/Body";
+import appStore from "./utils/appStore.js";
 function App() {
   return (
-    <Body />
+    <Provider store={appStore}>
+      <Body />
+    </Provider>
   );
 }
 
